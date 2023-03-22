@@ -47,7 +47,7 @@ with DAG(
     op_kwargs={
         'url': 'https://www.predictit.org/api/marketdata/all/',
         'file_name': 'predicit_market.json',
-        'bucket': 'data-mbfr'},
+        'bucket': 'de-data-minhnguyen'},
     dag = dag 
     )
     
